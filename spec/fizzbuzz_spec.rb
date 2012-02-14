@@ -1,4 +1,4 @@
-require '../lib/fizzbuzz.rb'
+require 'spec_helper'
 
 describe FizzBuzz do
   
