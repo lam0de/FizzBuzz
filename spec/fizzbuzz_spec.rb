@@ -6,7 +6,7 @@ describe FizzBuzz do
 
       context "given a number multiple by 3"
         it "should return FIZZ" do
-          FizzBuzz.print_fizz(3).should ("FIZZ")
+          FizzBuzz.print_fizz(3).should eq("FIZZ")
         end
 
       context "given a number multiple by 5"
