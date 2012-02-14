@@ -15,4 +15,4 @@ class FizzBuzz
 end
 
 
-#(1..100).each { |e| FizzBuzz.print_fizz(e) }
+(1..100).each { |e| FizzBuzz.print_fizz(e) }
