@@ -1,17 +1,18 @@
 class FizzBuzz
-  
+
   def self.print_fizz(v)
-    puts if v%3 == 0 && v%5 == 0
-      "FIZZBUZZ"
-    elsif v%3 == 0 
-      "FIZZ"      
+    if v%3 == 0 && v%5 == 0
+      puts 'FIZZBUZZ'
+    elsif v%3 == 0
+      puts 'FIZZ'
     elsif v%5 == 0
-      "BUZZ"
+      puts 'BUZZ'
     else
-      v
+      puts v
     end
   end
 
 end
 
-(1..100).each { |e| FizzBuzz.print_fizz(e) }
+
+#(1..100).each { |e| FizzBuzz.print_fizz(e) }
