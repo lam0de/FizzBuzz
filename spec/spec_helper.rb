@@ -1,4 +1,4 @@
 require 'rubygems'
 require 'rspec'
 
-require File.join(File.dirname(__FILE__),'../lib/fizzbuzz.rb')
+require_relative '../lib/fizzbuzz.rb'
